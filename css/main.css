@@ -1,0 +1,282 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  pad: 0;
+  margin: 0;
+}
+
+/* ul, ol */
+
+ul,
+ol {
+  list-style: none;
+}
+
+/* a */
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+body {
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+  border: 1.5px solid black;
+}
+
+.site_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 70px;
+  margin-bottom: 130px;
+}
+
+.site_link {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+}
+
+.site_subs_link {
+  color: #242d52;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.site_main_link {
+  color: #fcf6f5;
+  font-size: 13px;
+  font-weight: 700;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  background-color: #f3603c;
+  padding: 12px 32px 13px 32px;
+  border-radius: 15px;
+}
+
+.apps_content {
+  display: inline-block;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../img/back.png);
+}
+.apps_content {
+  display: flex;
+  margin-bottom: 132px;
+}
+
+.apps_sub_title {
+  width: 445px;
+  color: #242d52;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: -1px;
+  margin-top: 32px;
+}
+
+.apps_text {
+  width: 350px;
+  color: #242d52;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 16px;
+}
+
+.apps_subs_link {
+  color: #fcf6f5;
+  font-size: 13px;
+  font-weight: 700;
+  background-color: #f3603c;
+  border-radius: 15px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  padding: 12px 32px 13px 32px;
+  margin-top: 40px;
+}
+
+.login_content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  row-gap: 15px;
+  margin-top: 50px;
+  margin-left: 85px;
+}
+
+.login_card:nth-child(1) {
+  width: 260px;
+  height: 235px;
+  flex-shrink: 0;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0px 10px 20px 0px rgba(80, 86, 98, 0.03);
+  padding: 16px 12px 15px 16px;
+}
+
+.login_card:nth-child(2) {
+  width: 260px;
+  height: 235px;
+  flex-shrink: 0;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0px 10px 20px 0px rgba(80, 86, 98, 0.03);
+  padding: 36px 47px 35px 49px;
+}
+
+.login_card:nth-child(3) {
+  width: 260px;
+  height: 235px;
+  flex-shrink: 0;
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 16px 15px 15px 16px;
+  box-shadow: 0px 10px 20px 0px rgba(80, 86, 98, 0.03);
+}
+
+.hero_subs_title {
+  width: 445px;
+  flex-shrink: 0;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: -0.714px;
+  margin-bottom: 24px;
+}
+
+.hero_text {
+  width: 350px;
+  color: #242d52;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.hero_content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 165px;
+}
+
+.hero_main_title {
+  width: 227px;
+  color: #242d52;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: -0.286px;
+  margin-top: 46px;
+}
+
+.hero_subs_text {
+  width: 445px;
+  color: #242d52;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 19px;
+}
+
+.maps_content {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 60px;
+}
+
+.maps_card {
+  width: 540px;
+  height: 220px;
+  flex-shrink: 0;
+  background-color: #fafafa;
+  border: 1.5px solid red;
+  position: relative;
+}
+
+.maps_sub_img {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: -40px;
+  left: 43%;
+}
+
+.maps_info {
+  text-align: center;
+  padding: 60px 40px;
+}
+
+.maps_link {
+  color: #242d52;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: -0.286px;
+  margin-bottom: 19px;
+}
+
+.maps_text {
+  width: 460px;
+  color: #242d52;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.maps_btn_link {
+  color: #fcf6f5;
+  font-size: 13px;
+  font-weight: 700;
+  background-color: #f3603c;
+  border-radius: 15px;
+  padding: 12px 32px 11px 32px;
+  margin-left: 390px;
+  box-shadow: 0px 20px 10px -4px rgba(0, 0, 0, 0.2);
+}
+
+.maps_container {
+  margin-bottom: 160px;
+}
+
+.live_container {
+  flex-shrink: 0;
+  background-color: #f3603c;
+}
+
+.live_content {
+  display: flex;
+  justify-content: space-between;
+  margin: 62px;
+}
+
+.live_title {
+  width: 445px;
+  color: black;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: -0.714px;
+}
+
+.live_sub_link {
+  color: #f3603c;
+  font-size: 13px;
+  font-weight: 700;
+  background-color: #f6f6f6;
+  padding: 12px 32px 13px 32px;
+  border-radius: 15px;
+}
+
+.logo_container{
+  background-color: #1d1e25;
+}
+
+.logo_list{
+  display: flex;
+  justify-content: space-between  
+}
+
